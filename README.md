@@ -10,10 +10,16 @@ All Processing sketches require the [oscP5](http://www.sojamo.de/libraries/oscP5
 You can install it via the Contribution Manager.  
 `Sketch > Import Library > Add Library`
 
+##### Face OSC #####
 * [Face OSC Sender](processing/face_osc_sender)
 * [Face OSC Receiver](processing/face_osc_receiver)
+
+##### Mouse OSC #####
 * [Mouse OSC Sender](processing/mouse_osc_sender)
 * [Mouse OSC Receiver](processing/mouse_osc_receiver)
+
+##### Random OSC #####
+* [Random OSC Sender](processing/random_osc_sender)
 
 
 ### Pure Data ###
