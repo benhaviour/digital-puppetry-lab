@@ -11,16 +11,26 @@ You can install it via the Contribution Manager.
 `Sketch > Import Library > Add Library`
 
 ##### Face OSC #####
+
+*Transmitting position and size of faces*
 * [Face OSC Sender](processing/face_osc_sender)
 * [Face OSC Receiver](processing/face_osc_receiver)
 
 ##### Mouse OSC #####
+
+*Transmitting mouse interaction*
 * [Mouse OSC Sender](processing/mouse_osc_sender)
 * [Mouse OSC Receiver](processing/mouse_osc_receiver)
 
 ##### Random OSC #####
+*Transmitting random numbers*
 * [Random OSC Sender](processing/random_osc_sender)
+* [Random OSC Receiver](processing/random_osc_sender)
 
+##### TIC TAC TOE #####
+*Bidirectional communication*
+* [Player X](processing/tic_tac_toe_player_x)
+* [Player O](processing/tic_tac_toe_player_o)
 
 ### Pure Data ###
 
