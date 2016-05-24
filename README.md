@@ -5,19 +5,16 @@ Repo for the Digital Puppetry Lab class at Bauhaus-Uni Weimar
 ## OSC-Examples
 
 ### Processing ###
-
 All Processing sketches require the [oscP5](http://www.sojamo.de/libraries/oscP5/) library.  
 You can install it via the Contribution Manager.  
 `Sketch > Import Library > Add Library`
 
 ##### Face OSC #####
-
 *Transmitting position and size of faces*
 * [Face OSC Sender](processing/face_osc_sender)
 * [Face OSC Receiver](processing/face_osc_receiver)
 
 ##### Mouse OSC #####
-
 *Transmitting mouse interaction*
 * [Mouse OSC Sender](processing/mouse_osc_sender)
 * [Mouse OSC Receiver](processing/mouse_osc_receiver)
@@ -33,14 +30,18 @@ You can install it via the Contribution Manager.
 * [Player O](processing/tic_tac_toe_player_o)
 
 ### Pure Data ###
-
 Pure Data patches require the `mrpeach` library (included in pd-extended).  
 More info [here](https://flossmanuals.net/pure-data/ch065_osc/).
+
+
+##### Random OSC #####
+*Transmitting random numbers*
+* [Random OSC Sender](puredata/random_osc_sender.pd)
+* [Random OSC Receiver](puredata/random_osc_receiver.pd)
 
 ### MAX MSP ###
 MAX patches require the `OSC-route` external.  
 More info [here](http://cnmat.berkeley.edu/patch/4029).
 
 # License
-
 All code is MIT licensed.
