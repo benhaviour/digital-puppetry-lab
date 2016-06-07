@@ -45,9 +45,18 @@ More info [here](http://cnmat.berkeley.edu/patch/4029).
 
 ## Tracking
 
-### The Captury Hack ###
+### Hacks ###
 
-* [PD-Proxy](tracking/the-captury-hack/random_osc_sender.pd)
+* [PD-Proxy](tracking/the-captury-hack/random_osc_sender.pd) : puredata patch to make Processing and MAX MSP talk to the captury.
+
+#### Processing ####
+* [Twin Spheres Hack](tracking/processing/twin_spheres_hack/) : Processing sketch for tracking the positions of two designated skeletons  
+using the pd proxy hack.
+
+### The Captury ###
+
+#### Processing ####
+* [Twin Spheres](tracking/processing/twin_spheres/) : Processing sketch for tracking the positions of two designated skeletons  
 
 # License
 All code is MIT licensed.

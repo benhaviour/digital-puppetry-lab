@@ -1,0 +1,37 @@
+#N canvas 268 77 942 626 10;
+#X declare -lib mrpeach -lib iemnet -lib moocow;
+#X obj 571 111 import mrpeach iemnet moocow;
+#X obj 288 316 udpclient;
+#X msg 15 108 connect kosmos.medien.uni-weimar.de 1065;
+#X obj 224 409 print captury:;
+#X obj 339 370 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 224 367 unpackOSC;
+#X obj 336 231 unpackOSC;
+#X obj 8 295 packOSC;
+#X msg -140 250 sendtyped /subscribe/meta/api/osc/version fff 0 0 0
+;
+#X obj 315 110 udpreceive 13000;
+#X msg 198 142 disconnect;
+#X obj 352 464 udpsend;
+#X msg 571 155 connect 127.0.0.1 12000;
+#X obj 354 544 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 572 219 disconnect;
+#X obj 336 277 print processing:;
+#X text 12 41 Forward a UDP connection from The Captury RECEIVE 1065
+\, TRANSMIT: ???) to a local app RECEIVE:12000 TRANSMIT:13000);
+#X connect 1 0 5 0;
+#X connect 1 0 11 0;
+#X connect 1 2 4 0;
+#X connect 2 0 1 0;
+#X connect 5 0 3 0;
+#X connect 6 0 15 0;
+#X connect 7 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 6 0;
+#X connect 9 0 1 0;
+#X connect 10 0 1 0;
+#X connect 11 0 13 0;
+#X connect 12 0 11 0;
+#X connect 14 0 11 0;
