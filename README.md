@@ -43,9 +43,7 @@ More info [here](https://flossmanuals.net/pure-data/ch065_osc/).
 MAX patches require the `OSC-route` external.  
 More info [here](http://cnmat.berkeley.edu/patch/4029).
 
-## Tracking
-
-### Hacks ###
+## Tracking Hacks ##
 
 * [PD-Proxy](tracking/the-captury-hack/random_osc_sender.pd) : puredata patch to make Processing and MAX MSP talk to the captury.
 
@@ -53,7 +51,7 @@ More info [here](http://cnmat.berkeley.edu/patch/4029).
 * [Twin Spheres Hack](tracking/processing/twin_spheres_hack/) : Processing sketch for tracking the positions of two designated skeletons  
 using the pd proxy hack.
 
-### The Captury ###
+## Tracking ##
 
 #### Processing ####
 * [Twin Spheres](tracking/processing/twin_spheres/) : Processing sketch for tracking the positions of two designated skeletons  
